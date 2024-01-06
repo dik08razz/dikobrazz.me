@@ -1,14 +1,5 @@
 /* f #1a1a1a; s #333333; t # ffffff ; acc #4ca6a8; */
 
-/* Webfont: MacPawFixelDisplay-Regular */
-@font-face {
-    font-family: 'MPFD-Regular';
-    src: url('/res/fonts/MPFD/MPFD-Regular.otf') format('opentype'); /* Safari, Android, iOS */
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
 /* Webfont: e-Ukraine-Regular */
 @font-face {
     font-family: 'e-ukraine-regular';
