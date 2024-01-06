@@ -1,0 +1,21 @@
+.container{
+    min-width: auto;
+    width: calc(100% - 15px);
+}
+
+.whoim {
+    padding: 20px;
+}
+
+#who {
+    font-size: 32px;
+}
+
+.whoTitle {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.links {
+    font-size: 20px;
+}

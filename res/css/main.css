@@ -1,0 +1,86 @@
+/* f #1a1a1a; s #333333; t # ffffff ; acc #4ca6a8; */
+
+/* Webfont: MacPawFixelDisplay-Regular */
+@font-face {
+    font-family: 'MPFD-Regular';
+    src: url('/res/fonts/MPFD/MPFD-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: e-Ukraine-Regular */
+@font-face {
+    font-family: 'e-ukraine-regular';
+    src: url('/res/fonts/e-Ukraine/e-Ukraine-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'e-ukraine-regular'; 
+}
+
+body {
+    /* background-color: #1a1a1a; */
+    background: rgb(26,26,26);
+    background: linear-gradient(162deg, rgba(26,26,26,1) 21%, rgba(42,42,42,1) 43%, rgba(94,2,148,1) 100%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0) !important;
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+a::after {
+    text-decoration: none;
+    color: none;
+}
+
+
+.container {
+    min-width: auto;
+    max-width: 920px;
+    width: calc(100% - 30px);
+    padding: 10px 5px 10px 5px;
+    display: grid;
+    /* place-items: center; */
+}
+
+.header {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.content {
+    font-size: 14px;
+    min-width: 140px;
+    margin: 5px 0px 5px 0px;
+    padding: 5px;
+}
+
+.whoim {
+    text-align: right;
+    padding: 80px;
+}
+
+#who {
+    font-size: 40px;
+}
+
+.whoTitle {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.links {
+    font-size: 24px;
+}
