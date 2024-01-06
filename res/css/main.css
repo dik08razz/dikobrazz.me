@@ -48,6 +48,7 @@ a::after {
     color: none;
 }
 
+/* main style */
 
 .container {
     min-width: auto;
@@ -55,7 +56,7 @@ a::after {
     width: calc(100% - 30px);
     padding: 10px 5px 10px 5px;
     display: grid;
-    /* place-items: center; */
+    /* place-items: end; */
 }
 
 .header {
@@ -69,6 +70,8 @@ a::after {
     margin: 5px 0px 5px 0px;
     padding: 5px;
 }
+
+/* home page */
 
 .whoim {
     text-align: right;
@@ -84,6 +87,37 @@ a::after {
     margin-top: 15px;
 }
 
+.socialBlock {
+}
+
 .links {
     font-size: 24px;
+}
+
+/* Social container */
+
+.socialContainer {
+    text-align: right;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+    gap: 5px;
+    justify-items: right;
+    border: red solid 1px;
+}
+
+.linksBtn {
+    font-size: 24px;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5px;
+    justify-items: center;
+    border: #4ca6a8 solid 1px;
+    border-radius: 10px;
+    max-width: 140px;
+    width: auto;
+}
+
+img.links {
+    width: 28px;
 }

@@ -16,6 +16,13 @@
     margin-top: 15px;
 }
 
-.links {
-    font-size: 20px;
+/* Social container */
+
+.socialContainer {
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr, 1fr));
+}
+
+.linksBtn {
+    max-width: 200px;
 }
