@@ -12,7 +12,7 @@
 * {
     margin: 0;
     padding: 0;
-    color: #fff;
+    /* color: #fff; */
     font-family: 'e-ukraine-regular'; 
 }
 
@@ -65,8 +65,12 @@ a::after {
 /* home page */
 
 .whoim {
-    text-align: right;
+    /* text-align: right; */
     padding: 80px;
+    color: transparent;
+    background: linear-gradient(139deg, rgba(212,112,155,1) 0%, rgba(148,187,233,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 
 #who {
@@ -83,6 +87,7 @@ a::after {
 
 .links {
     font-size: 24px;
+    color: #e499ff
 }
 
 /* Social container */
