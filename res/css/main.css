@@ -25,7 +25,7 @@ body {
     background: linear-gradient(170deg, rgba(26,26,26,1) 22%, rgba(42,42,42,1) 53%, rgba(94,2,148,1) 100%);
     display: grid;
     place-items: center;
-    height: 100vh;
+    height: 100dvh;
 }
 
 a {
