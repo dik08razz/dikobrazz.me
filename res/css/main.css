@@ -83,11 +83,35 @@ a::after {
 }
 
 .socialBlock {
+    /* Why do we still here? */
+    /* Just a suffer... */
+    /* ... */
+    /* Remove this block if you will not use it. */
 }
 
 .links {
+    position: relative;
     font-size: 24px;
-    color: #e499ff
+    color: #e499ff;
+    padding-left: 32px;
+    opacity: 0.75;
+}
+.links:hover {
+    opacity: 1;
+}
+.links::after {
+    content: '';
+    position: absolute;
+    top: 2px; left: 0;
+    width: 24px;
+    height: 24px;
+    background: #e499ff;
+    mask-size: cover;
+    -webkit-mask-size: cover;
+}
+.links.github::after {
+    mask-image: url(/res/icons/github-mark/github-mark.svg);
+    -webkit-mask-image: url(/res/icons/github-mark/github-mark.svg);
 }
 
 /* Social container */
