@@ -82,13 +82,6 @@ a::after {
     margin-top: 15px;
 }
 
-.socialBlock {
-    /* Why do we still here? */
-    /* Just a suffer... */
-    /* ... */
-    /* Remove this block if you will not use it. */
-}
-
 .links {
     position: relative;
     font-size: 24px;
@@ -112,32 +105,4 @@ a::after {
 .links.github::after {
     mask-image: url(/res/icons/github-mark/github-mark.svg);
     -webkit-mask-image: url(/res/icons/github-mark/github-mark.svg);
-}
-
-/* Social container */
-
-.socialContainer {
-    text-align: right;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
-    gap: 5px;
-    justify-items: right;
-    border: red solid 1px;
-}
-
-.linksBtn {
-    font-size: 24px;
-    padding: 8px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 5px;
-    justify-items: center;
-    border: #4ca6a8 solid 1px;
-    border-radius: 10px;
-    max-width: 140px;
-    width: auto;
-}
-
-img.links {
-    width: 28px;
 }
