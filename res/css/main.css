@@ -20,7 +20,30 @@ html {
     background-color: #1a1a1a;
 }
 
-body {
+::-webkit-scrollbar {
+    display: none;
+    margin: 60px;
+    position: fixed;
+    top: 60px;
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: grey;
+    border-radius: 50px;
+    margin: 0 auto;
+    width: 10px;
+}
+
+/* body {
+    background: rgb(26,26,26);
+    background: linear-gradient(170deg, rgba(26,26,26,1) 22%, rgba(42,42,42,1) 53%, rgba(94,2,148,1) 100%);
+    display: grid;
+    place-items: center;
+    height: 100dvh;
+} */
+
+.screen {
     background: rgb(26,26,26);
     background: linear-gradient(170deg, rgba(26,26,26,1) 22%, rgba(42,42,42,1) 53%, rgba(94,2,148,1) 100%);
     display: grid;
