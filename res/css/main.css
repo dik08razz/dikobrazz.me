@@ -1,20 +1,11 @@
-/* f #1a1a1a; s #333333; t # ffffff ; acc #4ca6a8; */
-
-/* Webfont: e-Ukraine-Regular */
-@font-face {
-    font-family: 'e-ukraine-regular';
-    src: url('/res/fonts/e-Ukraine/e-Ukraine-Regular.otf') format('opentype'); /* Safari, Android, iOS */
-    font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
 /* html settings */
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'e-ukraine-regular'; 
+    /* font-family: 'e-ukraine-regular'; */
+	/* font-family: '3270'; */
+	font-family: 'BBT';
 }
 
 html {

@@ -1,0 +1,24 @@
+/* Fonts */
+@font-face {
+    font-family: 'e-ukraine-regular';
+    src: url('/res/fonts/e-Ukraine/e-Ukraine-Regular.otf') format('opentype'); /* Safari, Android, iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+	font-family: '3270';
+	src: url('/res/fonts/3270/3270NerdFont-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+@font-face {
+	font-family: 'BBT';
+	src: url('/res/fonts/BigBlueTerminal/BigBlueTermPlusNerdFont-Regular.ttf');
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
