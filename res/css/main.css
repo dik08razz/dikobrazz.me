@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'e-ukraine-regular';
+    font-family: 'e-UkraineHead-regular';
 }
 
 html {
@@ -71,7 +71,7 @@ a::after {
     padding: 5px;
 }
 
-.whoim {
+.content.whoim {
     padding: 80px;
     color: transparent;
     background: linear-gradient(139deg, rgba(212,112,155,1) 0%, rgba(148,187,233,1) 100%);
@@ -83,7 +83,7 @@ a::after {
     font-size: 40px;
 }
 
-.whoTitle {
+#whoTitle {
     font-size: 30px;
     margin-top: 15px;
 }
