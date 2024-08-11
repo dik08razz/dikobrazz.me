@@ -1,11 +1,12 @@
 .container {
     min-width: auto;
     width: calc(100% - 15px);
-}
+    }
 
-.whoim {
+.content.whoim {
     padding: 20px;
-}
+} 
+
 
 #who {
     font-size: 32px;
