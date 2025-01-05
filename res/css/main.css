@@ -79,11 +79,11 @@ a::after {
     -webkit-background-clip: text;
 }
 
-#who {
+#title {
     font-size: 40px;
 }
 
-#whoTitle {
+#txt {
     font-size: 30px;
     margin-top: 15px;
 }
